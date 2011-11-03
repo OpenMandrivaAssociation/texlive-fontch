@@ -1,3 +1,9 @@
+# revision 17859
+# category Package
+# catalog-ctan /macros/plain/contrib/fontch
+# catalog-date 2010-04-13 09:02:45 +0200
+# catalog-license lppl
+# catalog-version 2.2
 Name:		texlive-fontch
 Version:	2.2
 Release:	1
@@ -54,6 +60,7 @@ fonts.
 %{_texmfdistdir}/tex/plain/fontch/fontch_doc.tex
 %doc %{_texmfdistdir}/doc/plain/fontch/README
 %doc %{_texmfdistdir}/doc/plain/fontch/fontch.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
