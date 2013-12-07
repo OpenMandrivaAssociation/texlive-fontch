@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-fontch
 Version:	2.2
-Release:	5
+Release:	6
 Summary:	Changing fonts, sizes and encodings in Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/fontch
