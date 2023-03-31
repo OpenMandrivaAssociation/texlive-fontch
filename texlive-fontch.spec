@@ -1,6 +1,6 @@
 Name:		texlive-fontch
 Version:	17859
-Release:	1
+Release:	2
 Summary:	Changing fonts, sizes and encodings in Plain TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/fontch
