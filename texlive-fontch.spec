@@ -3,7 +3,7 @@ Version:	17859
 Release:	2
 Summary:	Changing fonts, sizes and encodings in Plain TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/fontch
+URL:		https://www.ctan.org/tex-archive/macros/plain/contrib/fontch
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontch.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontch.doc.r%{version}.tar.xz
